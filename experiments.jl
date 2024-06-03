@@ -164,7 +164,7 @@ end
 
 # ╔═╡ d2910ba3-6f0c-4905-b10a-f32ad8239ab6
 md"""
-# Online Message Passing-based Inference in Dirichlet Process Mixtures
+# Online Structure Learning with Dirichlet Processes through Message Passing
 """
 
 # ╔═╡ c30f10ee-7bb7-4b12-8c90-8c1947ce0bc9
@@ -632,6 +632,7 @@ end
 
 # ╔═╡ b6ecbc4d-6bc2-4ec5-ad5b-78ae441fbf49
 begin
+	mkdir("exports")
 	pgfsave("exports/experiments_dirichlet.tikz", fig_tikz)
 	pgfsave("exports/experiments_dirichlet.png", fig_tikz)
 	pgfsave("exports/experiments_dirichlet.pdf", fig_tikz)
@@ -1804,7 +1805,7 @@ version = "17.4.0+2"
 # ╟─1b2c3587-b4b6-4d5b-a54a-430fc478dcd4
 # ╠═2bfa1683-86c3-4b9d-b7e3-3890bb32c645
 # ╟─075cbfdd-698b-4a38-8ae3-557d39acb5d2
-# ╠═e2ed2836-5a4d-4762-ab59-d77277b47f39
+# ╟─e2ed2836-5a4d-4762-ab59-d77277b47f39
 # ╟─ef365ff1-9a53-4e7e-96ce-a68baeb6b67b
 # ╟─b6ecbc4d-6bc2-4ec5-ad5b-78ae441fbf49
 # ╟─00000000-0000-0000-0000-000000000001
